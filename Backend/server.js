@@ -2,6 +2,7 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const path = require("path");
 
 const app = express();
 const PORT = 5000;
@@ -81,6 +82,12 @@ app.post("/verify-otp", (req, res) => {
 
 const AddUser=require('./Route/AddUser');
 app.use("/api/v1",AddUser);
+// Serve frontend build
+app.use(express.static(path.join(__dirname, "../frontend/dist")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
+});
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
