@@ -60,17 +60,22 @@ export const Navbar = () => {
           )}
         </div>
       </div>
-      {downbar && (
-        <div className='w-[500px] h-auto flex flex-col bg-slate-600 absolute right-0 z-50'>
-          <div className='h-10 border-2 border-white p-3 text-center justify-center items-center flex text-white bg-zinc-800'>
-            Settings
-          </div>
-          <div className='h-10 border-2 border-white p-3 text-center justify-center items-center flex text-white bg-zinc-800' >
-           <a> About us </a>
-            
-          </div>
-        </div>
-      )}
+     {downbar && (
+  <div className='w-[500px] h-auto flex flex-col bg-slate-600 absolute right-0 z-50'>
+    <div className='h-10 border-2 border-white p-3 text-center justify-center items-center flex text-white bg-zinc-800'>
+      Settings
+    </div>
+    <div className='p-4 border-2 border-white text-white bg-zinc-800'>
+      <h3 className='font-bold text-lg mb-2'>About Us</h3>
+      <p className='text-sm'>
+        Alumni Connect helps students and alumni connect, share experiences, and build opportunities.
+      </p>
+      <p className='text-sm mt-2'>
+        Created by Saloni, Supriya, Aiman, and Shweta as part of an internship, our team <strong>“Dypians”</strong> aims to make networking and mentorship easy, meaningful, and engaging.
+      </p>
+    </div>
+  </div>
+)}
     </>
   )
 }
