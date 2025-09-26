@@ -70,6 +70,7 @@ export const Navbar = () => {
       <p className='text-sm mt-2'>
         Created by Saloni, Supriya, Aiman, and Shweta as part of an internship, our team <strong>“Dypians”</strong> aims to make networking and mentorship easy, meaningful, and engaging.
       </p>
+       <p className='text-sm mt-3 text-center'> Made with &hearts; by us.</p>
     </div>
   </div>
 )}
