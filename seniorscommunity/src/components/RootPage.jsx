@@ -211,7 +211,7 @@ const RootPage = () => {
                 </div>
                 <div className=''>
                   <input type="text" ref={emailref} className='w-full h-10 border border-black pl-8 pr-8 pt-3 pb-3' placeholder='Official Email Address' />
-                  <div className=''>eg.abisheks22it@srishakthi.ac.in</div>
+                  <div className=''>dypians10@gmail.com</div>
                 </div>
                 <div><button className='bg-orange-400 text-white p-3 rounded-lg' onClick={handleCheckemail}>Join the community!</button></div>
                 <div className='font-bold text-red-500'>{email1 && ("Please enter a valid college email!")}</div>
