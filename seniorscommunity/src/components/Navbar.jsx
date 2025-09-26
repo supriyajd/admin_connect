@@ -66,7 +66,11 @@ export const Navbar = () => {
             Settings
           </div>
           <div className='h-10 border-2 border-white p-3 text-center justify-center items-center flex text-white bg-zinc-800' >
-           <a href="https://codewithabi.vercel.app" target='_blank' className='w-full h-full flex justify-center items-center'> About us</a>
+           <a> About us
+             <p> Alumni Connect helps students and alumni connect, share experiences, and build opportunities.
+               <br>Created by Saloni, Supriya, Aiman, and Shweta as part of an internship, our team “Dypians” aims to make networking and mentorship easy, meaningful, and engaging. </p>
+           </a>
+            
           </div>
         </div>
       )}
