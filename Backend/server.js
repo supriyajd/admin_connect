@@ -83,10 +83,11 @@ app.post("/verify-otp", (req, res) => {
 const AddUser=require('./Route/AddUser');
 app.use("/api/v1",AddUser);
 // Serve frontend build
-app.use(express.static(path.join(__dirname, "../frontend/dist")));
+// Serve frontend (React build from seniorscommunity)
+app.use(express.static(path.join(__dirname, "../seniorscommunity/dist")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
+  res.sendFile(path.join(__dirname, "../seniorscommunity/dist/index.html"));
 });
 
 app.listen(PORT, () => {
