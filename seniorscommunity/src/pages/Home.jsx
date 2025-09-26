@@ -40,9 +40,9 @@ const Home = () => {
   ))
 //Department: "IT"
 // ​​
-// Email: "abisheks22it@srishakthi.ac.in"
+// Email: "dypians10@gmail.com"
 // ​​
-// Name: "ABISHEK S"
+// Name: "dypians"
 // ​​
 // Year: "22"
 // ( item.Department.toLowerCase().includes(batch.toLowerCase()) ||
