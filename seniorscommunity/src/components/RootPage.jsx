@@ -192,11 +192,11 @@ const RootPage = () => {
               Empowering connections, bridging experience with curiosity. A hub for shared aspirations and achievements. Where knowledge flows from mentors to eager learners. Celebrating the journeys of our alumni and juniors alike. Together, we build a stronger, united future.
             </div>
             <div className='w-full flex justify-end items-center space-x-2'>
-              <img src={Abi} alt="" className='w-[60px] h-[60px] rounded-full' />
+              <img src={abi.jpg} alt="" className='w-[60px] h-[60px] rounded-full' />
               <div className='p-2 flex flex-col'>
-                <p className='text-white'>ABISHEK</p>
+                <p className='text-white'>DYPIANS GROUP</p>
                 <p className='font-bold text-white'></p>
-                <p className='text-white'>Mission Possible pvt lmt</p>
+                <p className='text-white'>Alumini Connect Pvt ltd</p>
               </div>
             </div>
           </div>
